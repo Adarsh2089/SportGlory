@@ -1,0 +1,111 @@
+/* Heading for Roadmap */
+.roadmap-title {
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3rem;
+    color: #00ffff;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* ROADMAP STYLING */
+  .roadmap-flow {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 2rem 1rem;
+    flex-wrap: wrap;
+    position: relative;
+  }
+  
+  @keyframes waveMotion {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-15px); }
+    100% { transform: translateY(0px); }
+  }
+  .roadmap-card {
+    background: #0f0f0f;
+    border: 2px solid #00ffff;
+    padding: 2rem 1.5rem;
+    border-radius: 1.5rem;
+    text-align: center;
+    box-shadow: 0 0 20px #00ffff;
+    width: 240px;
+    position: relative;
+    color: #fff;
+  
+      /* Smooth transitions */
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+      animation: waveMotion 4s ease-in-out infinite;
+    }
+    
+    .roadmap-card:nth-child(1) {
+      animation-delay: 0s;
+    }
+    .roadmap-card:nth-child(2) {
+      animation-delay: 0.5s;
+    }
+    .roadmap-card:nth-child(3) {
+      animation-delay: 1s;
+    }
+    .roadmap-card:nth-child(4) {
+      animation-delay: 1.5s;
+    }
+  
+  .roadmap-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px #00ffffcc, 0 0 15px #00ffff66 inset;
+  }
+  
+  .roadmap-card img {
+    width: 70px;
+    margin-bottom: 1rem;
+  }
+  
+  .roadmap-card h3 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1rem;
+    margin: 0;
+    color: #00ffff;
+  }
+  
+  .roadmap-card p {
+    font-size: 0.85rem;
+    margin-top: 1rem;
+    font-weight: 300;
+    color: #ccc;
+  }
+  
+  /* Connector Between Cards */
+  .roadmap-card:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -2.3rem;
+    transform: translateY(-50%);
+    width: 2rem;
+    height: 3px;
+    border-top: 2px dotted #00ffff;
+  }
+  
+  @media (max-width: 768px) {
+    .roadmap-flow {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .roadmap-card:not(:last-child)::after {
+      width: 2px;
+      height: 2rem;
+      border-top: none;
+      border-left: 2px dotted #00ffff;
+      right: 50%;
+      top: 100%;
+      transform: translateX(50%);
+    }
+  }
+  
+  
+  

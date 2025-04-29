@@ -1,0 +1,117 @@
+/* Result Overlay */
+.result-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  .result-overlay-content {
+    background: linear-gradient(135deg, #a51111, #272682);
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    width: 80%;
+    max-width: 400px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .overlay-heading {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #f8f8f8;
+  }
+  
+  .overlay-text {
+    font-size: 1.1em;
+    color: #e3f7fcda;
+    margin-bottom: 20px;
+  }
+  
+  .category-button {
+    background-color: aliceblue;
+    color: rgb(14, 4, 4);
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .category-button:hover {
+    background-color: #ded5dab1;
+  }
+  
+  /* Result Nominee Section */
+  .result-nominees-container {
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .results-heading {
+    font-size: 2.5em;
+    color: #ede5e5;
+  }
+  
+  .loading-text {
+    font-size: 1.5em;
+    color: #666;
+  }
+  
+  .result-top-performers {
+    margin-top: 30px;
+  }
+  
+  .top-performers-heading {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #7ee70d;
+  }
+  
+  .result-performer-card {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin-bottom: 15px;
+    background: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 1.2em;
+  }
+  
+  .result-performer-rank {
+    font-weight: bold;
+    color: #333;
+    font-size: 1.5rem;
+  }
+  
+  .result-performer-name {
+    font-weight: bold;
+    color: #007bff;
+    font-size: 1.5rem;
+  }
+  
+  .result-performer-votes {
+    color: #666;
+    font-size: 1.5rem;
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  

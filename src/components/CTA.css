@@ -1,0 +1,29 @@
+.cta-banner {
+    background-color: #111;
+    color: #00ffff;
+    text-align: center;
+    padding: 30px 20px;
+    font-family: 'Press Start 2P', cursive;
+    border-top: 2px solid cyan;
+    border-bottom: 2px solid cyan;
+    margin-top: 40px;
+  }
+  
+  .cta-content p {
+    font-size: 18px;
+    margin: 0 0 15px;
+  }
+  
+  .nominate-btn {
+    background-color: cyan;
+    color: #111;
+    padding: 12px 25px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nominate-btn:hover {
+    background-color: #00bfbf;
+  }

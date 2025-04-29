@@ -1,0 +1,42 @@
+
+/* FOOTER STYLING */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 2rem;
+    border-top: 2px solid #00ffff;
+    background: #000;
+    color: #00ffff;
+  }
+  
+  .footer-left h2 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-left p {
+    font-size: 0.9rem;
+    margin: 0.5rem 0;
+  }
+  
+  .footer-right h3 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .social-icons a img {
+    width: 42px;
+    height: 42px;
+    filter: brightness(1.2);
+  }
+  
