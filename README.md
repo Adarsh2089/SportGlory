@@ -1,8 +1,13 @@
 <h1 align="center">🏆 SportGlory</h1> <p align="center"> <img src="https://github.com/user-attachments/assets/sportglory_logo.png" alt="SportGlory Logo" width="200"/> </p>
+
 📱 Project Overview
+
 SportGlory is a web-based platform that celebrates the achievements of Indian athletes by providing a transparent and engaging system for sports award nominations, voting, and result announcements. Built with React.js and powered by Firebase, SportGlory empowers communities to recognize sports excellence with simplicity and trust.
 
+
+
 💡 The Problem We're Solving
+
 In India, recognizing deserving athletes through public nominations and transparent voting is still a challenge due to:
 
 Lack of centralized and user-friendly platforms
@@ -21,7 +26,9 @@ Centralized result announcements and dashboards
 
 Community-driven participation and recognition
 
+
 🚀 Key Features
+
 📝 Award Nomination Form
 Users can nominate athletes by submitting details and achievements through a structured form.
 
@@ -38,7 +45,9 @@ A live leaderboard updates with vote counts to keep users engaged throughout the
 Google/Firebase authentication ensures verified participation and prevents spam or bot voting.
 
 
+
 🛠️ Tech Stack & Dependencies
+
 React.js – Responsive frontend user interface
 
 Firebase Firestore – Real-time database for nominations and votes
@@ -51,7 +60,10 @@ Tailwind CSS / CSS Modules – Custom styling
 
 Chart.js / Recharts – Visualization for voting trends (optional)
 
+
+
 👥 User Journey
+
 🔐 Login & Access
 Users sign in via Google and are redirected to the dashboard where they can nominate or vote.
 
@@ -64,10 +76,10 @@ Vote for nominees and view real-time vote counts on the leaderboard page.
 🏆 Award Results
 Winners are declared on the results page along with profiles and award history.
 
-📸 Sneak Peek
 
-Home Page	Nomination Form	Voting Page	Leaderboard
+
 🧩 Contribution Guidelines
+
 We welcome contributors to help expand SportGlory!
 
 Fork the repository
