@@ -1,12 +1,15 @@
-<h1 align="center">🏆 SportGlory</h1> <p align="center"> <img src="https://github.com/Adarsh2089/SportGlory/blob/main/sportglory_logo.png" alt="SportGlory Logo" width="200"/> </p>
+<h1 align="center">🏆 SportGlory</h1> <p align="center"> 
+  <img src="https://github.com/Adarsh2089/SportGlory/blob/main/sportglory_logo.png" alt="SportGlory Logo" width="200"/> </p>
 
-📱 Project Overview
+
+<h2>📱 Project Overview</h2> 
 
 SportGlory is a web-based platform that celebrates the achievements of Indian athletes by providing a transparent and engaging system for sports award nominations, voting, and result announcements. Built with React.js and powered by Firebase, SportGlory empowers communities to recognize sports excellence with simplicity and trust.
 
 
 
-💡 The Problem We're Solving
+
+<h2>💡 The Problem We're Solving</h2>
 
 In India, recognizing deserving athletes through public nominations and transparent voting is still a challenge due to:
 
@@ -26,8 +29,7 @@ Centralized result announcements and dashboards
 
 Community-driven participation and recognition
 
-
-🚀 Key Features
+<h2>🚀 Key Features</h2>
 
 📝 Award Nomination Form
 Users can nominate athletes by submitting details and achievements through a structured form.
@@ -46,7 +48,8 @@ Google/Firebase authentication ensures verified participation and prevents spam 
 
 
 
-🛠️ Tech Stack & Dependencies
+
+<h2>🛠️ Tech Stack & Dependencies</h2>
 
 React.js – Responsive frontend user interface
 
@@ -60,9 +63,7 @@ Tailwind CSS / CSS Modules – Custom styling
 
 Chart.js / Recharts – Visualization for voting trends (optional)
 
-
-
-👥 User Journey
+<h2>👥 User Journey</h2>
 
 🔐 Login & Access
 Users sign in via Google and are redirected to the dashboard where they can nominate or vote.
@@ -77,8 +78,7 @@ Vote for nominees and view real-time vote counts on the leaderboard page.
 Winners are declared on the results page along with profiles and award history.
 
 
-
-🧩 Contribution Guidelines
+<h2>🧩 Contribution Guidelines</h2>
 
 We welcome contributors to help expand SportGlory!
 
@@ -91,7 +91,7 @@ Commit your changes
 Submit a Pull Request 📬
 
 
-🔮 Future Roadmap
+<h2>🔮 Future Roadmap</h2>
 
 🧠 AI-based duplicate nomination filtering
 
@@ -99,8 +99,9 @@ Submit a Pull Request 📬
 
 
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+<h2>📱 📬 Contact </h2>
 
-📬 Contact
 For collaboration or feedback, reach us at:
 📧 adarsh.mca23@gmail.com
 
