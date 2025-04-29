@@ -1,4 +1,4 @@
-<h1 align="center">🏆 SportGlory</h1> <p align="center"> <img src="https://github.com/user-attachments/assets/sportglory_logo.png" alt="SportGlory Logo" width="200"/> </p>
+<h1 align="center">🏆 SportGlory</h1> <p align="center"> <img src="https://github.com/Adarsh2089/SportGlory/blob/main/sportglory_logo.png" alt="SportGlory Logo" width="200"/> </p>
 
 📱 Project Overview
 
