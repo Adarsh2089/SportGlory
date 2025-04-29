@@ -11,7 +11,7 @@ const Navbar = () => {
     <>
       <nav>
         <div className="logo">
-          <img src="assets/logo.svg" alt="Logo" />
+          <img src="assets/sportglory_logo.png" alt="Logo" />
         </div>
         <div className="menu">
          {/* Use NavLink instead of Link for active class functionality */}

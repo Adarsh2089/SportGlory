@@ -13,10 +13,11 @@
   }
   
   .auth-modal {
-    background: #fff;
+    background: linear-gradient(135deg, #a51111, #272682);
     padding: 30px;
     border-radius: 10px;
-    width: 300px;
+    width: 500px;
+    height: 350px;
     position: relative;
     text-align: center;
   }
@@ -36,12 +37,14 @@
   .auth-modal button[type="submit"] {
     width: 100%;
     padding: 10px;
-    background: #007bff;
+    background-color: #00c853;
     color: white;
     border: none;
     border-radius: 5px;
     margin-top: 10px;
+    cursor: pointer;
   }
+
   
   .auth-modal .close-btn {
     position: absolute;
@@ -49,6 +52,7 @@
     right: 12px;
     background: none;
     border: none;
+    color: white;
     font-size: 20px;
     cursor: pointer;
   }
@@ -62,6 +66,7 @@
   .auth-modal p span {
     color: #007bff;
     cursor: pointer;
+    margin-top: 10px;
     font-weight: bold;
   }
   
